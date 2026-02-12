@@ -7,3 +7,15 @@ public class CabinetDto
     public int StoreId { get; set; }
     public List<GroupDto> Groups { get; set; } = new();
 }
+
+public class CreateCabinetDto
+{
+    public string Name { get; set; } = string.Empty;
+    public int StoreId { get; set; }
+}
+
+public class UpdateCabinetDto
+{
+    public string Name { get; set; } = string.Empty;
+    public int StoreId { get; set; }
+}
